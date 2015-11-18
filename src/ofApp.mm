@@ -15,10 +15,13 @@ void ofApp::update(){
     numOfVerts = 100;
     float * audioData = new float[numOfVerts];
     fftLive.getFftPeakData(audioData, numOfVerts);
-    for(int i=0; i<numOfVerts; i++) {
-        float audioValue = audioData[i];
-        
-    }
+
+//    for(int i=0; i<numOfVerts; i++) {
+//        audioValue = audioData[i];
+//
+//        ofLog(OF_LOG_ERROR, "audioValue %f", audioValue);
+//    }
+
     delete[] audioData;
 }
 
@@ -26,6 +29,11 @@ void ofApp::update(){
 void ofApp::draw(){
     int pad = 5;
     fftLive.draw(pad, pad, ofGetWidth() - pad * 2, ofGetHeight() - pad * 2);
+    ofPushStyle();
+    ofSetColor(0);
+//    ofLog(OF_LOG_ERROR, "getAveragePeak %f", fftLive.getAveragePeak());
+    ofDrawBitmapString("getAveragePeak:"+ofToString(fftLive.getAveragePeak()), 20,20);
+    ofPopStyle();
 }
 
 //--------------------------------------------------------------

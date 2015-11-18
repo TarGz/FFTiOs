@@ -34,6 +34,7 @@ class ofApp : public ofxiOSApp {
     ofMesh meshOriginal;
     ofMesh meshWarped;
     ofEasyCam cam;
+    float audioValue;
     int numOfVerts;
 
 };
