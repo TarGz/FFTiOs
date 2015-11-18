@@ -12,11 +12,19 @@ void ofApp::setup(){
 //--------------------------------------------------------------
 void ofApp::update(){
     fftLive.update();
+    numOfVerts = 100;
+    float * audioData = new float[numOfVerts];
+    fftLive.getFftPeakData(audioData, numOfVerts);
+    for(int i=0; i<numOfVerts; i++) {
+        float audioValue = audioData[i];
+        
+    }
+    delete[] audioData;
 }
 
 //--------------------------------------------------------------
 void ofApp::draw(){
-    int pad = 10;
+    int pad = 5;
     fftLive.draw(pad, pad, ofGetWidth() - pad * 2, ofGetHeight() - pad * 2);
 }
 

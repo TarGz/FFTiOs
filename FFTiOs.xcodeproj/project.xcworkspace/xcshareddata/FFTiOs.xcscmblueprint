@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "529D9532F458E5AD117B7F9D6130FD0EDD9D8E8B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "529D9532F458E5AD117B7F9D6130FD0EDD9D8E8B" : 0,
+    "2EF43D1D30359A63A415F3CC3B5BE8B3229520A5" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "1A871B00-F109-4FE2-BA58-3899064137D5",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "529D9532F458E5AD117B7F9D6130FD0EDD9D8E8B" : "FFTiOs\/",
+    "2EF43D1D30359A63A415F3CC3B5BE8B3229520A5" : "..\/..\/addons\/ofxFFT"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "FFTiOs",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "FFTiOs.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/julapy\/ofxFFT.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2EF43D1D30359A63A415F3CC3B5BE8B3229520A5"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/TarGz\/FFTiOs.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "529D9532F458E5AD117B7F9D6130FD0EDD9D8E8B"
+    }
+  ]
+}

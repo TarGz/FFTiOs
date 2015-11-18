@@ -3,6 +3,7 @@
 #include "ofxiOS.h"
 #include "ofxFFTLive.h"
 #include "ofxFFTFile.h"
+#include "ofxGui.h"
 
 class ofApp : public ofxiOSApp {
 	
@@ -24,7 +25,16 @@ class ofApp : public ofxiOSApp {
         void deviceOrientationChanged(int newOrientation);
     
         ofxFFTLive fftLive;
-        ofxFFTFile fftData; // currently does not work.
+    ofxPanel gui;
+    ofxSlider<float> audioThreshold;
+    ofxSlider<float> audioPeakDecay;
+    ofxSlider<float> audioMaxDecay;
+    ofxToggle audioMirror;
+    
+    ofMesh meshOriginal;
+    ofMesh meshWarped;
+    ofEasyCam cam;
+    int numOfVerts;
 
 };
 
